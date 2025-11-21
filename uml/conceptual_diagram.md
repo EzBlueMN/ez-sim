@@ -12,17 +12,17 @@ classDiagram
     class HistoryLog
 
     %% Relationships with labels
-    Simulation --> World : manages
-    Simulation --> Agent : contains
-    Simulation --> StateManager : uses for snapshots
-    Simulation --> TimelineManager : tracks timelines
-    Simulation --> Rules : enforces
+    Simulation --> World
+    Simulation --> Agent
+    Simulation --> StateManager
+    Simulation --> TimelineManager
+    Simulation --> Rules
 
-    World --> Resources : provides
-    World --> Environment : defines conditions
-    World --> HistoryLog : records changes
+    World --> Resources
+    World --> Environment
+    World --> HistoryLog
 
-    Agent --> Resources : consumes/produces
-    Agent --> Rules : follows or modifies
-    Agent --> Environment : is affected by
-    Agent --> Agent : interacts with
+    Agent --> Resources
+    Agent --> Rules
+    Agent --> Environment
+    Agent --> Agent
