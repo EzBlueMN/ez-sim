@@ -1,7 +1,7 @@
 ```mermaid
 graph LR
-    Life["Life"] -->|manages| LifePath["LifePath"]
-    Life -->|controls| LifePicture["LifePicture"]
+    Life["Simulation"] -->|manages| LifePath["MomentManager"]
+    Life -->|controls| LifePicture["FlowManager"]
     LifePicture -->|updates| World["World"]
     World -->|contains| Player["Player"]
     Player -->|interacts with| Resources["Resources"]
