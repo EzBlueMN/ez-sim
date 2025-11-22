@@ -1,6 +1,6 @@
 ```mermaid
 graph LR
-    Life["Life"] -->|manages| LifePath["LifePath"]
+    Life["Life2"] -->|manages| LifePath["LifePath"]
     Life -->|controls| LifePicture["LifePicture"]
     LifePicture -->|updates| World["World"]
     World -->|contains| Player["Player"]
