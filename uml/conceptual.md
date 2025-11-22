@@ -1,11 +1,16 @@
 ````mermaid
 graph LR
     Simulation["Simulation"] -->|"manages"| MomentManager["MomentManager"]
-    Simulation -->|"controls"| FlowManager["FlowManager"]
-    FlowManager -->|"updates"| World["World"]
-    World -->|"contains"| Player["Player"]
+    
+    MomentManager -->|"creates / updates"| Moment["Moment"]
+    Moment -->|"applies to"| Life["Life"]
+    
+    Life -->|"contains"| Player["Player"]
     Player -->|"interacts with"| Resources["Resources"]
-    World -->|"contains"| Environment["Environment"]
+    
+    Life -->|"contains"| Environment["Environment"]
+    
     Rules["Rules"] -->|"constrain actions of"| Player
-    Rules -->|"constrain evolution of"| World
-    FlowManager -->|"records events in"| EventLog["EventLog"]
+    Rules -->|"constrain evolution of"| Life
+    
+    Moment -->|"records events in"| EventLog["EventLog"]
