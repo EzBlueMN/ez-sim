@@ -1,0 +1,6 @@
+Voici une liste non complète des éléments à tenir en ligne de compte le plus tôt possible dans la conceptualisation
+- Comment sauvegarder les moments. Il est possible de sauvegarder chaque moment (tick), mais ce sera un probleme de memoire. Il est possible de sauvegarder seulement les changements, mais ce sera un probleme de refaire toute la simulation pour arriver a un moment donne
+
+- Comment gerer deux evenement qui arrive en meme temps et qui ont un impact sur lequel arrive en premier. Comment gerer des actions qui sont fait sur un long laps de temps et qui ne peuvent pas etre simplement sous forme de changement instantanee
+
+- Une structure qui permet d'inserer des evenements a certains endroits (temporels) precis pour permettre au module de "next tick de temps" de prendre les changements

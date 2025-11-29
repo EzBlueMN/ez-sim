@@ -1,0 +1,6 @@
+DESCRIPTION
+
+L'objectif du projet et de développer un outil pour simuler l'évolution d'un écosysteme humain. Il existera plusieurs personnes qui auront chacun une façon de fonctionner propre. Pour assurer des concepts de sécurité, de structure, d'organisation, de loi, etc. il y a aura un gouvernement. Il existera différents type de gouvernement possible. Le monde sera également divisé en régions qui auront chaqun leur enjeux et particularités propre.
+
+À travers différents changements et modifications un objectif général sera de regrouper tous les groupes autour d'un gouvernement et économie commune pour simplifier la structure et pour assurer une meilleur stabilité du systeme en général. L'objectif est de recréer le plus possible le monde dans lequel on vit et se donner un outil pour essayer d'unifier la population autour d'un projet commun et une progression viable pour tous.
+La simulation idéale sera capable d'intégrer une modèle économique simplifié, un système de travail (éducation, expérience, équivalence), un systeme de valeurs (religion).

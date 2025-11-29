@@ -1,4 +1,0 @@
-The objective is to design the core for simulating the behavior or different individual inside a given environment.
-Each individual will have a set of rules to follow and will affect the environment they live in.
-There will be some kind of government that enforce certain behaviour and structure the way of interacting.
-An economy of different ressources will allow to trade and transform into product.
